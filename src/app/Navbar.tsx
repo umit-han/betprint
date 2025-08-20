@@ -1,6 +1,6 @@
 import logo from "@/assets/logo.png";
 import SearchField from "@/components/SearchField";
-// import UserButton from "@/components/UserButton";
+import UserButton from "@/components/UserButton";
 import { getWixServerClient } from "@/lib/wix-client.server";
 import { getCart } from "@/wix-api/cart";
 import { getCollections } from "@/wix-api/collections";
@@ -9,8 +9,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { Suspense } from "react";
 // import MainNavigation from "./MainNavigation";
-// import MobileMenu from "./MobileMenu";
-// import ShoppingCartButton from "./ShoppingCartButton";
+import MobileMenu from "./MobileMenu";
+import ShoppingCartButton from "./ShoppingCartButton";
 
 export default async function Navbar() {
   const wixClient = getWixServerClient();
@@ -24,12 +24,12 @@ export default async function Navbar() {
   return (
     <header className="bg-background shadow-sm">
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-5 p-5">
-        {/* <Suspense>
+        <Suspense>
           <MobileMenu
             collections={collections}
             loggedInMember={loggedInMember}
           />
-        </Suspense> */}
+        </Suspense>
         <div className="flex flex-wrap items-center gap-5">
           <Link href="/" className="flex items-center gap-4">
             <Image src={logo} alt="Flow Shop logo" width={40} height={40} />
@@ -42,11 +42,11 @@ export default async function Navbar() {
         </div>
         <SearchField className="hidden max-w-96 lg:inline" />
         <div className="flex items-center justify-center gap-5">
-          {/* <UserButton
+          <UserButton
             loggedInMember={loggedInMember}
             className="hidden lg:inline-flex"
-          /> */}
-          {/* <ShoppingCartButton initialData={cart} /> */}
+          /> 
+          <ShoppingCartButton initialData={cart} />
         </div>
       </div>
     </header>
