@@ -8,7 +8,7 @@ import { getLoggedInMember } from "@/wix-api/members";
 import Image from "next/image";
 import Link from "next/link";
 import { Suspense } from "react";
-// import MainNavigation from "./MainNavigation";
+import MainNavigation from "./MainNavigation";
 import MobileMenu from "./MobileMenu";
 import ShoppingCartButton from "./ShoppingCartButton";
 
@@ -35,10 +35,10 @@ export default async function Navbar() {
             <Image src={logo} alt="Flow Shop logo" width={40} height={40} />
             <span className="text-xl font-bold">Flow Shop</span>
           </Link>
-          {/* <MainNavigation
+          <MainNavigation
             collections={collections}
             className="hidden lg:flex"
-          /> */}
+          />
         </div>
         <SearchField className="hidden max-w-96 lg:inline" />
         <div className="flex items-center justify-center gap-5">

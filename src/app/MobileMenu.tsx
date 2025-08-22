@@ -8,7 +8,7 @@ import {
   SheetHeader,
   SheetTitle,
 } from "@/components/ui/sheet";
-// import UserButton from "@/components/UserButton";
+import UserButton from "@/components/UserButton";
 import { twConfig } from "@/lib/utils";
 import { members } from "@wix/members";
 import { collections } from "@wix/stores";
@@ -79,7 +79,7 @@ export default function MobileMenu({
                 </li>
               ))}
             </ul>
-            {/* <UserButton loggedInMember={loggedInMember} /> */}
+            <UserButton loggedInMember={loggedInMember} />
           </div>
         </SheetContent>
       </Sheet>
