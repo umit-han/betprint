@@ -32,9 +32,16 @@ export default function Orders() {
       {status === "success" && !orders.length && !hasNextPage && (
         <p>No orders yet</p>
       )}
-      {orders.map((order) => (
-        <Order key={order.number} order={order} />
-      ))}
+  {orders.map((order, index) => {
+    // Eğer order tanımsız ise, bu iterasyon için hiçbir şey render etme (null dön)
+    if (!order) {
+      return null;
+    }
+
+    // Bu kontrol sayesinde TypeScript, bu satırdan sonra 'order'ın tanımsız olmadığını anlar.
+    // key için bir fallback olarak index kullanmak önemlidir, çünkü order tanımsız olabilirdi.
+    return <Order key={order.number || index} order={order} />;
+  })}
       {hasNextPage && (
         <LoadingButton
           loading={isFetchingNextPage}

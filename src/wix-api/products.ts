@@ -118,8 +118,9 @@ export async function getRelatedProducts(
   );
 
   const productIds = result.recommendation?.items
-    .map((item) => item.catalogItemId)
-    .filter((id) => id !== undefined);
+  ?.map((item) => item.catalogItemId) // .map() çağrısını da ?. ile koru
+  .filter((id) => id !== undefined)
+  ?? []; // Eğer tüm zincir undefined olursa, boş bir dizi ata
 
   if (!productIds || !productIds.length) return [];
 

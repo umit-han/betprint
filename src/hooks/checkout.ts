@@ -17,7 +17,11 @@ export function useCartCheckout() {
 
     try {
       const checkoutUrl = await getCheckoutUrlForCurrentCart(wixBrowserClient);
-      window.location.href = checkoutUrl;
+      if(checkoutUrl){//düzeltme
+        window.location.href = checkoutUrl;
+      }else{
+        setPending(false); 
+      }
     } catch (error) {
       setPending(false);
       console.error(error);
@@ -44,7 +48,11 @@ export function useQuickBuy() {
         wixBrowserClient,
         values,
       );
-      window.location.href = checkoutUrl;
+      if(checkoutUrl){//düzeltme
+        window.location.href = checkoutUrl;
+      }else{
+        setPending(false); 
+      }
     } catch (error) {
       setPending(false);
       console.error(error);

@@ -19,6 +19,11 @@ export default function Order({ order }: OrderProps) {
     [orders.PaymentStatus.PARTIALLY_REFUNDED]: "Partially refunded",
     [orders.PaymentStatus.PENDING]: "Pending",
     [orders.PaymentStatus.UNSPECIFIED]: "No information",
+
+    [orders.PaymentStatus.PENDING_MERCHANT]: "Satıcı Onayı Bekliyor", // Örnek metin
+    [orders.PaymentStatus.CANCELED]: "İptal Edildi",             // Örnek metin
+    [orders.PaymentStatus.DECLINED]: "Reddedildi",               // Örnek metin
+  
   };
 
   const fulfillmentStatusMap: Record<orders.FulfillmentStatus, string> = {
