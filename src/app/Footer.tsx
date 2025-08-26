@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -7,7 +8,7 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-2 gap-x-12 gap-y-16 md:col-span-3 lg:grid-cols-6">
           <div className="col-span-2 md:col-span-3 lg:col-span-2 lg:pr-8">
-            <div className="text-2xl font-bold">Flow Shop</div>
+            <div className="text-2xl font-bold">Bet Print</div>
             <p className="mt-7 text-base leading-relaxed text-muted-foreground">
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do
               amet sint. Velit officia consequat duis enim velit mollit.
@@ -97,14 +98,14 @@ export default function Footer() {
 
             <ul className="mt-6 space-y-4">
               <li>
-                <a
-                  href="#"
+                <Link
+                  href="./terms"
                   title=""
                   className="flex text-base transition-all duration-200 hover:text-primary focus:text-primary"
                 >
                   {" "}
                   About{" "}
-                </a>
+                </Link>
               </li>
 
               <li>
@@ -227,8 +228,7 @@ export default function Footer() {
         <hr className="mb-10 mt-16" />
 
         <p className="text-center text-sm text-muted-foreground">
-          © Copyright {new Date().getFullYear()}, All Rights Reserved by Flow
-          Shop
+          © Copyright {new Date().getFullYear()}, All Rights Reserved by Bet Print
         </p>
       </div>
     </footer>

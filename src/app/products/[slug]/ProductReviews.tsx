@@ -127,7 +127,7 @@ function Review({
               height={24}
               className="size-5"
             />
-            <span className="font-bold">Flow Shop Team</span>
+            <span className="font-bold">Bet Print Team</span>
           </div>
           <div className="whitespace-pre-line">{reply.message}</div>
         </div>
