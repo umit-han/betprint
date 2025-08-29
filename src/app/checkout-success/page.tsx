@@ -18,32 +18,32 @@ export const metadata: Metadata = {
 export default async function Page({ searchParams: { orderId } }: PageProps) {
   const wixClient = getWixServerClient();
 
-  const [order, loggedInMember] = await Promise.all([
-    getOrder(wixClient, orderId),
-    getLoggedInMember(wixClient),
-  ]);
+  // const [order, loggedInMember] = await Promise.all([
+  //   getOrder(wixClient, orderId),
+  //   getLoggedInMember(wixClient),
+  // ]);
 
-  if (!order) {
-    notFound();
-  }
+  // if (!order) {
+  //   notFound();
+  // }
 
-  const orderCreatedDate = order._createdDate
-    ? new Date(order._createdDate)
-    : null;
+  // const orderCreatedDate = order._createdDate
+  //   ? new Date(order._createdDate)
+  //   : null;
 
   return (
     <main className="mx-auto flex max-w-3xl flex-col items-center space-y-5 px-5 py-10">
       <h1 className="text-3xl font-bold">We received your order!</h1>
       <p>A summary of your order was sent to your email address.</p>
-      <h2 className="text-2xl font-bold">Order details</h2>
-      <Order order={order} />
-      {loggedInMember && (
+      {/* <h2 className="text-2xl font-bold">Order details</h2> */}
+      {/* <Order order={order} /> */}
+      {/* {loggedInMember && (
         <Link href="/profile" className="block text-primary hover:underline">
           View all your orders
         </Link>
       )}
       {orderCreatedDate &&
-        orderCreatedDate.getTime() > Date.now() - 60_000 * 5 && <ClearCart />}
+        orderCreatedDate.getTime() > Date.now() - 60_000 * 5 && <ClearCart />} */}
     </main>
   );
 }
