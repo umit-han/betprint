@@ -29,7 +29,7 @@ export default async function Navbar() {
             loggedInMember={loggedInMember}
           />
         </Suspense>
-        <div className="flex flex-wrap items-center gap-5">
+        <div className="flex flex-wrap items-center gap-12">
           <ThemeAwareLogo />
           <MainNavigation
             collections={collections}
