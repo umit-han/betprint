@@ -5,12 +5,11 @@ import { getWixServerClient } from "@/lib/wix-client.server";
 import { getCart } from "@/wix-api/cart";
 import { getCollections } from "@/wix-api/collections";
 import { getLoggedInMember } from "@/wix-api/members";
-import Image from "next/image";
-import Link from "next/link";
 import { Suspense } from "react";
 import MainNavigation from "./MainNavigation";
 import MobileMenu from "./MobileMenu";
 import ShoppingCartButton from "./ShoppingCartButton";
+import ThemeAwareLogo from "./ThemeAwareLogo";
 
 export default async function Navbar() {
   const wixClient = getWixServerClient();
@@ -31,10 +30,7 @@ export default async function Navbar() {
           />
         </Suspense>
         <div className="flex flex-wrap items-center gap-5">
-          <Link href="/" className="flex items-center gap-8">
-            <Image src={logo} alt="Bet Printlogo" width={70} height={50} />
-            <span className="text-2xl font-bold">Bet Print</span>
-          </Link>
+          <ThemeAwareLogo />
           <MainNavigation
             collections={collections}
             className="hidden lg:flex"
