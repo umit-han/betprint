@@ -68,7 +68,7 @@ export default function MobileMenu({
                   Shop
                 </Link>
               </li>
-              {collections.map((collection) => (
+              {/* {collections.map((collection) => (
                 <li key={collection._id}>
                   <Link
                     href={`/collections/${collection.slug}`}
@@ -77,7 +77,17 @@ export default function MobileMenu({
                     {collection.name}
                   </Link>
                 </li>
-              ))}
+              ))} */}
+              <li>
+                <Link href="/shop" className="font-semibold hover:underline">
+                  Über das Produkt
+                </Link>
+              </li>
+              <li>
+                <Link href="/shop" className="font-semibold hover:underline">
+                Kontakt
+                </Link>
+              </li>
             </ul>
             <UserButton loggedInMember={loggedInMember} />
           </div>
