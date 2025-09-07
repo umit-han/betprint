@@ -22,7 +22,7 @@ export default async function Navbar() {
 
   return (
     <header className="bg-background shadow-sm">
-      <div className="mx-auto flex max-w-7xl items-center justify-between gap-5 p-5">
+      <div className="mx-auto flex max-w-7xl items-center justify-between gap-5 px-5 py-3">
         <Suspense>
           <MobileMenu
             collections={collections}

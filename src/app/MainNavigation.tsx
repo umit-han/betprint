@@ -33,6 +33,21 @@ export default function MainNavigation({
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
+        <Link href="/shop" legacyBehavior passHref>
+            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+              Über das Produkt
+            </NavigationMenuLink>
+          </Link>
+        </NavigationMenuItem>
+        <NavigationMenuItem>
+        <Link href="/shop" legacyBehavior passHref>
+            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+              Kontakt
+            </NavigationMenuLink>
+          </Link>
+        </NavigationMenuItem>
+        
+        {/* <NavigationMenuItem>
           <NavigationMenuTrigger>Collections</NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="p-4">
@@ -56,7 +71,7 @@ export default function MainNavigation({
               ))}
             </ul>
           </NavigationMenuContent>
-        </NavigationMenuItem>
+        </NavigationMenuItem> */}
       </NavigationMenuList>
     </NavigationMenu>
   );
