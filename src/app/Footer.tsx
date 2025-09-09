@@ -10,8 +10,8 @@ export default function Footer() {
           <div className="col-span-2 md:col-span-3 lg:col-span-2 lg:pr-8">
             <div className="text-2xl font-bold">Bet Print</div>
             <p className="mt-7 text-base leading-relaxed text-muted-foreground">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequat duis enim velit mollit.
+              Hochwertiger Druck für all Ihre Bedürfnisse. Schnell, zuverlässig
+              und professionell.
             </p>
 
             <ul className="mt-9 flex items-center space-x-3">
@@ -93,7 +93,7 @@ export default function Footer() {
 
           <div>
             <p className="text-sm font-semibold uppercase tracking-widest text-muted-foreground">
-              Company
+              Unternehmen
             </p>
 
             <ul className="mt-6 space-y-4">
@@ -103,8 +103,8 @@ export default function Footer() {
                   title=""
                   className="flex text-base transition-all duration-200 hover:text-primary focus:text-primary"
                 >
-                  {" "}
-                  About{" "}
+                  
+                  Über uns
                 </Link>
               </li>
 
@@ -114,8 +114,8 @@ export default function Footer() {
                   title=""
                   className="flex text-base transition-all duration-200 hover:text-primary focus:text-primary"
                 >
-                  {" "}
-                  Features{" "}
+                  
+                  Eigenschaften
                 </a>
               </li>
 
@@ -125,8 +125,8 @@ export default function Footer() {
                   title=""
                   className="flex text-base transition-all duration-200 hover:text-primary focus:text-primary"
                 >
-                  {" "}
-                  Works{" "}
+                  
+                  Arbeiten
                 </a>
               </li>
 
@@ -136,8 +136,8 @@ export default function Footer() {
                   title=""
                   className="flex text-base transition-all duration-200 hover:text-primary focus:text-primary"
                 >
-                  {" "}
-                  Career{" "}
+                  
+                  Karriere
                 </a>
               </li>
             </ul>
@@ -145,7 +145,7 @@ export default function Footer() {
 
           <div>
             <p className="text-sm font-semibold uppercase tracking-widest text-muted-foreground">
-              Help
+              Hilfe
             </p>
 
             <ul className="mt-6 space-y-4">
@@ -155,8 +155,8 @@ export default function Footer() {
                   title=""
                   className="flex text-base transition-all duration-200 hover:text-primary focus:text-primary"
                 >
-                  {" "}
-                  Customer Support{" "}
+                  
+                  Kundensupport
                 </a>
               </li>
 
@@ -166,8 +166,8 @@ export default function Footer() {
                   title=""
                   className="flex text-base transition-all duration-200 hover:text-primary focus:text-primary"
                 >
-                  {" "}
-                  Delivery Details{" "}
+                  
+                  Lieferdetails
                 </a>
               </li>
 
@@ -177,8 +177,8 @@ export default function Footer() {
                   title=""
                   className="flex text-base transition-all duration-200 hover:text-primary focus:text-primary"
                 >
-                  {" "}
-                  Terms & Conditions{" "}
+                  
+                  AGB
                 </a>
               </li>
 
@@ -188,8 +188,8 @@ export default function Footer() {
                   title=""
                   className="flex text-base transition-all duration-200 hover:text-primary focus:text-primary"
                 >
-                  {" "}
-                  Privacy Policy{" "}
+                  
+                  Datenschutz
                 </a>
               </li>
             </ul>
@@ -197,7 +197,7 @@ export default function Footer() {
 
           <div className="col-span-2 md:col-span-1 lg:col-span-2 lg:pl-8">
             <p className="text-sm font-semibold uppercase tracking-widest text-muted-foreground">
-              Subscribe to newsletter
+              Newsletter abonnieren
             </p>
 
             <form action="#" method="POST" className="mt-6">
@@ -209,7 +209,7 @@ export default function Footer() {
                   type="email"
                   name="email"
                   id="email"
-                  placeholder="Enter your email"
+                  placeholder="Ihre E-Mail-Adresse eingeben"
                   className="block w-full"
                 />
               </div>
@@ -219,7 +219,7 @@ export default function Footer() {
                 size="lg"
                 className="mt-3 inline-flex items-center justify-center rounded-md bg-primary px-6 py-4"
               >
-                Subscribe
+                Abonnieren
               </Button>
             </form>
           </div>
@@ -228,7 +228,8 @@ export default function Footer() {
         <hr className="mb-10 mt-16" />
 
         <p className="text-center text-sm text-muted-foreground">
-          © Copyright {new Date().getFullYear()}, All Rights Reserved by Bet Print
+          © Copyright {new Date().getFullYear()}, Alle Rechte vorbehalten von Bet
+          Print
         </p>
       </div>
     </footer>

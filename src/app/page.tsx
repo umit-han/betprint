@@ -16,15 +16,15 @@ export default function Home() {
       <div className="flex items-center bg-secondary md:h-96">
         <div className="space-y-7 p-10 text-center md:w-1/2">
           <h1 className="text-3xl font-bold md:text-4xl">
-            Fill the void in your heart
+            Fülle die Leere in deinem Herzen
           </h1>
           <p>
-            Tough day? Credit card maxed out? Buy some expensive stuff and
-            become happy again!
+            Harter Tag? Kreditkarte am Limit? Kaufe teure Sachen und werde
+            wieder glücklich!
           </p>
           <Button asChild>
             <Link href="/shop">
-              Shop Now <ArrowRight className="ml-2 size-5" />
+              Jetzt einkaufen <ArrowRight className="ml-2 size-5" />
             </Link>
           </Button>
         </div>
@@ -63,7 +63,7 @@ async function FeaturedProducts() {
 
   return (
     <div className="space-y-5">
-      <h2 className="text-2xl font-bold">Featured Products</h2>
+      <h2 className="text-2xl font-bold">Vorgestellte Produkte</h2>
       <div className="flex grid-cols-2 flex-col gap-5 sm:grid md:grid-cols-3 lg:grid-cols-4">
         {featuredProducts.items.map((product) => (
           <Product key={product._id} product={product} />
