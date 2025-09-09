@@ -84,7 +84,7 @@ export default function MobileMenu({
                 </Link>
               </li>
               <li>
-                <Link href="/shop" className="font-semibold hover:underline">
+                <Link href="/contact" className="font-semibold hover:underline">
                 Kontakt
                 </Link>
               </li>

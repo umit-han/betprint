@@ -33,14 +33,14 @@ export default function MainNavigation({
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
-        <Link href="/shop" legacyBehavior passHref>
+        <Link href="/about-product" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               Über das Produkt
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
-        <Link href="/shop" legacyBehavior passHref>
+        <Link href="/contact" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               Kontakt
             </NavigationMenuLink>
