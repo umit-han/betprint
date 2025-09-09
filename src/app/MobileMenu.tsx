@@ -79,7 +79,7 @@ export default function MobileMenu({
                 </li>
               ))} */}
               <li>
-                <Link href="/shop" className="font-semibold hover:underline">
+                <Link href="/about-product" className="font-semibold hover:underline">
                   Über das Produkt
                 </Link>
               </li>
