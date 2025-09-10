@@ -30,12 +30,13 @@ export default async function Navbar() {
           />
         </Suspense>
         <div className="flex flex-wrap items-center gap-12">
-          <ThemeAwareLogo />
+       
           <MainNavigation
             collections={collections}
             className="hidden lg:flex"
           />
         </div>
+
         <SearchField className="hidden max-w-96 lg:inline" />
         <div className="flex items-center justify-center gap-5">
           <UserButton
