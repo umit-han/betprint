@@ -89,11 +89,6 @@ export default function MobileMenu({
                 </Link>
               </li>
               <li>
-                <Link href="/terms" className="font-semibold hover:underline">
-                  Über uns
-                </Link>
-              </li>
-              <li>
                 <Link href="/contact" className="font-semibold hover:underline">
                 Kontakt
                 </Link>

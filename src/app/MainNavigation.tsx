@@ -47,13 +47,6 @@ export default function MainNavigation({
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
-        <Link href="/terms" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-            Über uns
-            </NavigationMenuLink>
-          </Link>
-        </NavigationMenuItem>
-        <NavigationMenuItem>
         <Link href="/contact" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               Kontakt
