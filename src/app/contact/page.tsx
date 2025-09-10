@@ -8,7 +8,7 @@ export default function Contact() {
   return (
     <main className="mx-auto max-w-7xl space-y-10 px-5 py-10">
       <div className="text-center">
-        <h1 className="text-3xl font-bold md:text-4xl">Kontaktieren Sie uns</h1>
+        <h1 className="text-2xl font-bold md:text-4xl">Kontaktieren Sie uns</h1>
         <p className="mt-2 text-muted-foreground">
           Haben Sie Fragen oder Feedback? Wir würden uns freuen, von Ihnen zu
           hören.
@@ -18,7 +18,7 @@ export default function Contact() {
       <div className="grid grid-cols-1 gap-16 md:grid-cols-2">
         {/* Contact Form */}
         <div className="space-y-6">
-          <h2 className="text-2xl font-bold">Nachricht senden</h2>
+          <h2 className="text-xl md:text-2xl font-bold">Nachricht senden</h2>
           <form className="space-y-4">
             <div className="grid gap-2">
               <Label htmlFor="name">Ihr Name</Label>
@@ -53,7 +53,7 @@ export default function Contact() {
         {/* Contact Info & Map */}
         <div className="space-y-8">
           <div>
-            <h2 className="text-2xl font-bold">Kontaktinformationen</h2>
+            <h2 className="text-xl md:text-2xl font-bold">Kontaktinformationen</h2>
             <div className="mt-4 space-y-4 text-muted-foreground">
               <div className="flex items-start gap-3">
                 <MapPin className="mt-1 h-5 w-5 flex-shrink-0 text-primary" />

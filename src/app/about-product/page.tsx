@@ -5,7 +5,7 @@ export default function AboutProductPage() {
   return (
     <main className="mx-auto max-w-7xl space-y-12 px-5 py-10">
       <div className="text-center">
-        <h1 className="text-3xl font-bold md:text-4xl">Über unser Produkt</h1>
+        <h1 className="text-2xl font-bold md:text-4xl">Über unser Produkt</h1>
         <p className="mt-2 text-muted-foreground">
           Entdecken Sie die Qualität und Innovation, die in jedem Detail steckt.
         </p>
@@ -22,7 +22,7 @@ export default function AboutProductPage() {
           />
         </div>
         <div className="space-y-4">
-          <h2 className="text-2xl font-bold">Höchste Druckqualität</h2>
+          <h2 className="text-xl md:text-2xl font-bold">Höchste Druckqualität</h2>
           <p className="text-muted-foreground">
             Unsere Drucktechnologie der neuesten Generation garantiert gestochen
             scharfe Bilder und lebendige Farben. Wir verwenden nur hochwertige
@@ -34,7 +34,7 @@ export default function AboutProductPage() {
       </div>
 
       <div className="space-y-8 rounded-lg bg-secondary/50 p-8">
-        <h2 className="text-center text-2xl font-bold">Warum Bet Print wählen?</h2>
+        <h2 className="text-center text-xl md:text-2xl font-bold">Warum Bet Print wählen?</h2>
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
           <div className="text-center">
             <h3 className="font-semibold">Innovation</h3>

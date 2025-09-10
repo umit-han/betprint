@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <main className="mx-auto max-w-4xl space-y-10 px-5 py-10 leading-7">
       <div className="mx-auto text-center">
-        <h2 className="py-5 text-3xl">CUSTOMER CARE</h2>
+        <h2 className="py-5 text-xl md:text-2xl font-bold">CUSTOMER CARE</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -25,7 +25,7 @@ export default function Page() {
           ab illo inventore veritatis et quasi architecto beatae vitae dicta
           sunt explicabo.
         </p>
-        <h2 className="mt-10 py-5 text-3xl">PRIVACY & SAFETY</h2>
+        <h2 className="mt-10 py-5 text-xl md:text-2xl font-bold">PRIVACY & SAFETY</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -41,7 +41,7 @@ export default function Page() {
           ab illo inventore veritatis et quasi architecto beatae vitae dicta
           sunt explicabo.
         </p>
-        <h2 className="mt-10 py-5 text-3xl">WHOLESALE INQUIRIES</h2>
+        <h2 className="mt-10 py-5 text-xl md:text-2xl font-bold">WHOLESALE INQUIRIES</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -57,7 +57,7 @@ export default function Page() {
           ab illo inventore veritatis et quasi architecto beatae vitae dicta
           sunt explicabo.
         </p>
-        <h2 className="mt-10 py-5 text-3xl">PAYMENT METHODS</h2>
+        <h2 className="mt-10 py-5 text-xl md:text-2xl font-bold">PAYMENT METHODS</h2>
         <p>
           - Credit / Debit Cards
           <br /> - PAYPAL

@@ -33,6 +33,13 @@ export default function MainNavigation({
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
+        <Link href="/terms" legacyBehavior passHref>
+            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+            Über uns
+            </NavigationMenuLink>
+          </Link>
+        </NavigationMenuItem>
+        <NavigationMenuItem>
         <Link href="/angebot" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               Angebot/Sonderwünsche
@@ -43,13 +50,6 @@ export default function MainNavigation({
         <Link href="/about-product" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               Über das Produkt
-            </NavigationMenuLink>
-          </Link>
-        </NavigationMenuItem>
-        <NavigationMenuItem>
-        <Link href="/terms" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-            Über uns
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>

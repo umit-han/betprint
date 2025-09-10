@@ -21,7 +21,7 @@ export default function AngebotPage() {
   return (
     <main className="mx-auto max-w-4xl px-4 py-10 sm:px-6 lg:px-8">
       <div className="space-y-12">
-        <h1 className="text-3xl font-bold tracking-tight text-center">Anfrageformular</h1>
+        <h1 className="text-2xl font-bold tracking-tight text-center md:text-4xl">Anfrageformular</h1>
         <div className="space-y-6">
           <h2 className="text-lg font-bold tracking-tight md:text-2xl">
             ✨ Ihr individuelles Angebot – schnell & unkompliziert
