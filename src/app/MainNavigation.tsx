@@ -34,7 +34,7 @@ export default function MainNavigation({
         </NavigationMenuItem>
         <NavigationMenuItem>
           <Link href="/shop" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+            <NavigationMenuLink className={navigationMenuTriggerStyle()+'font-bold !text-xl'}>
              Jetzt Thermorollen bestellen
             </NavigationMenuLink>
           </Link>

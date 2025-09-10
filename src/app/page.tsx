@@ -12,8 +12,8 @@ import { Suspense } from "react";
 
 export default function Home() {
   return (
-    <main className="mx-auto max-w-7xl space-y-10 px-5 py-10">
-      <div className="flex items-center bg-secondary md:h-96">
+    <main className="mx-auto max-w-7xl space-y-10 px-5 py-5">
+      <div className="flex items-center bg-secondary md:h-120">
         <div className="space-y-7 p-10 text-center md:w-1/2">
           <h1 className="text-3xl font-bold md:text-4xl">
             Verantwortung &amp; Qualität – produziert in Deutschland

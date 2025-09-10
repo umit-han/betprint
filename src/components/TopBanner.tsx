@@ -10,7 +10,7 @@ export default function TopBanner() {
         </div>
         <div className="flex items-center gap-2">
           <Phone className="h-4 w-4" />
-          <a href="tel:+4964415643606" className="hover:underline">
+          <a href="tel:+4964415643606" className="hover:underline text-lg">
             +49 6441 56 43 606
           </a>
         </div>
