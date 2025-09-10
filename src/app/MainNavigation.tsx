@@ -25,17 +25,17 @@ export default function MainNavigation({
   return (
     <NavigationMenu className={className}>
       <NavigationMenuList>
-        <NavigationMenuItem>
-          <Link href="/shop" legacyBehavior passHref>
+      <NavigationMenuItem>
+        <Link href="/" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              Shop
+              Home
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
-        <Link href="/terms" legacyBehavior passHref>
+          <Link href="/shop" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-            Über uns
+             Jetzt Thermorollen bestellen
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
@@ -46,10 +46,10 @@ export default function MainNavigation({
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
-       <NavigationMenuItem>
-        <Link href="/about-product" legacyBehavior passHref>
+        <NavigationMenuItem>
+        <Link href="/terms" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              Über das Produkt
+            Über uns
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>

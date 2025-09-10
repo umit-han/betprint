@@ -9,54 +9,22 @@ export default function Page() {
   return (
     <main className="mx-auto max-w-4xl space-y-10 px-5 py-10 leading-7">
       <div className="mx-auto text-center">
-        <h2 className="py-5 text-xl md:text-2xl font-bold">CUSTOMER CARE</h2>
+        <h1 className="py-5 text-xl md:text-2xl font-bold">Über uns</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          Wir sind ein mittelständisches Unternehmen aus Hessen mit einem klaren Anspruch:
+          nachhaltige und zugleich praxisnahe Lösungen für den täglichen Geschäftsbedarf. Unser
+          Schwerpunkt liegt auf dem Online-Vertrieb von hochwertigen Thermorollen, die
+          ausschließlich in deutschen Papierfabriken gefertigt werden – nach strengen Umwelt- und
+          Qualitätsstandards.
         </p>
         <p>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
-          ab illo inventore veritatis et quasi architecto beatae vitae dicta
-          sunt explicabo.
+          Nach den Angaben unserer Hersteller werden die angebotenen Thermorollen ohne den
+          Einsatz von Bisphenolen (BPA, BPS, BPF) sowie ohne phenolhaltige Farbentwickler
+          produziert. Damit bieten wir Ihnen eine verlässliche und umweltbewusste Alternative zu
+          herkömmlichem Thermopapier.
         </p>
-        <h2 className="mt-10 py-5 text-xl md:text-2xl font-bold">PRIVACY & SAFETY</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <p>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
-          ab illo inventore veritatis et quasi architecto beatae vitae dicta
-          sunt explicabo.
-        </p>
-        <h2 className="mt-10 py-5 text-xl md:text-2xl font-bold">WHOLESALE INQUIRIES</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <p>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
-          ab illo inventore veritatis et quasi architecto beatae vitae dicta
-          sunt explicabo.
-        </p>
+        <h2 className="mt-10 py-5 text-xl font-bold">Nachhaltig. Vertrauenswürdig. Einfach bestellbar.</h2>
+        
         <h2 className="mt-10 py-5 text-xl md:text-2xl font-bold">PAYMENT METHODS</h2>
         <p>
           - Credit / Debit Cards

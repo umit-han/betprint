@@ -16,11 +16,12 @@ export default function Home() {
       <div className="flex items-center bg-secondary md:h-96">
         <div className="space-y-7 p-10 text-center md:w-1/2">
           <h1 className="text-3xl font-bold md:text-4xl">
-            Fülle die Leere in deinem Herzen
+            Verantwortung &amp; Qualität – produziert in Deutschland
           </h1>
           <p>
-            Harter Tag? Kreditkarte am Limit? Kaufe teure Sachen und werde
-            wieder glücklich!
+            Unsere Thermorollen werden in Deutschland produziert und sind mit dem FSC®-Zertifikat für
+            verantwortungsvolle Forstwirtschaft ausgezeichnet. Sie sind speziell für den Einsatz in
+            Thermodruckern entwickelt und gewährleisten eine zuverlässige Druckqualität.
           </p>
           <Button asChild>
             <Link href="/shop">
@@ -31,7 +32,7 @@ export default function Home() {
         <div className="relative hidden h-full w-1/2 md:block">
           <Image
             src={banner}
-            alt="Flow Shop banner"
+            alt="Bet Print Shop banner"
             className="h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-secondary via-transparent to-transparent" />
@@ -63,7 +64,6 @@ async function FeaturedProducts() {
 
   return (
     <div className="space-y-5">
-      <h2 className="text-2xl font-bold">Vorgestellte Produkte</h2>
       <div className="flex grid-cols-2 flex-col gap-5 sm:grid md:grid-cols-3 lg:grid-cols-4">
         {featuredProducts.items.map((product) => (
           <Product key={product._id} product={product} />

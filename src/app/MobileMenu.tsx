@@ -63,9 +63,14 @@ export default function MobileMenu({
           <div className="flex flex-col items-center space-y-10 py-10">
             <SearchField className="w-full" />
             <ul className="space-y-5 text-center text-lg">
+            <li>
+                <Link href="/" className="font-semibold hover:underline">
+                  Home
+                </Link>
+              </li>
               <li>
                 <Link href="/shop" className="font-semibold hover:underline">
-                  Shop
+                  Jetzt Thermorollen bestellen
                 </Link>
               </li>
               {/* {collections.map((collection) => (
@@ -78,19 +83,14 @@ export default function MobileMenu({
                   </Link>
                 </li>
               ))} */}
-               <li>
-                <Link href="/terms" className="font-semibold hover:underline">
-                  Über uns
-                </Link>
-              </li>
               <li>
                 <Link href="/angebot" className="font-semibold hover:underline">
                   Angebot/Sonderwünsche
                 </Link>
               </li>
               <li>
-                <Link href="/about-product" className="font-semibold hover:underline">
-                  Über das Produkt
+                <Link href="/terms" className="font-semibold hover:underline">
+                  Über uns
                 </Link>
               </li>
               <li>
