@@ -69,8 +69,8 @@ export default function Contact() {
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="h-5 w-5 flex-shrink-0 text-primary" />
-                <a href="mailto:info@betprint.com" className="hover:underline">
-                  info@betprint.com
+                <a href="mailto:info@betprint.de" className="hover:underline">
+                  info@betprint.de
                 </a>
               </div>
             </div>
