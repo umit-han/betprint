@@ -24,13 +24,6 @@ export default function Page() {
           herkömmlichem Thermopapier.
         </p>
         <h2 className="mt-10 py-5 text-xl font-bold">Nachhaltig. Vertrauenswürdig. Einfach bestellbar.</h2>
-        
-        <h2 className="mt-10 py-5 text-xl md:text-2xl font-bold">PAYMENT METHODS</h2>
-        <p>
-          - Credit / Debit Cards
-          <br /> - PAYPAL
-          <br /> - Offline Payments
-        </p>
       </div>
     </main>
   );
