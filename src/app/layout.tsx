@@ -2,6 +2,7 @@ import { Toaster } from "@/components/ui/toaster";
 import type { Metadata } from "next";
 import { ThemeProvider } from "next-themes";
 import { Lora } from "next/font/google";
+import TopBanner from "@/components/TopBanner";
 import Footer from "./Footer";
 import "./globals.css";
 import Navbar from "./Navbar";
@@ -32,6 +33,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <ReactQueryProvider>
+            <TopBanner />
             <Navbar />
             <div className="min-h-[50vh]">{children}</div>
             <Footer />
