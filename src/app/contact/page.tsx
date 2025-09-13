@@ -1,8 +1,14 @@
+import { Metadata } from "next";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { Mail, MapPin, Phone } from "lucide-react";
+
+export const metadata: Metadata = {
+  title: "Kontakt",
+  description: "Kontaktieren Sie uns",
+};
 
 export default function Contact() {
   return (

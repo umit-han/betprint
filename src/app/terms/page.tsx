@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <main className="mx-auto max-w-4xl space-y-10 px-5 py-10 leading-7">
       <div className="mx-auto text-center">
-        <h1 className="ext-2xl font-bold tracking-tight text-center md:text-4xl">Über uns</h1>
+        <h1 className="ext-2xl font-bold tracking-tight text-center md:text-4xl mb-3">Über uns</h1>
         <p>
           Wir sind ein mittelständisches Unternehmen aus Hessen mit einem klaren Anspruch:
           nachhaltige und zugleich praxisnahe Lösungen für den täglichen Geschäftsbedarf. Unser

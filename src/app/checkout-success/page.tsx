@@ -12,7 +12,8 @@ interface PageProps {
 }
 
 export const metadata: Metadata = {
-  title: "Checkout success",
+  title: "Bestellung erfolgreich",
+  description: "Vielen Dank für Ihre Bestellung!",
 };
 
 export default async function Page({ searchParams: { orderId } }: PageProps) {

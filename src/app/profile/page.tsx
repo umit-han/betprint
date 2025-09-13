@@ -6,8 +6,8 @@ import MemberInfoForm from "./MemberInfoForm";
 import Orders from "./Orders";
 
 export const metadata: Metadata = {
-  title: "Profile",
-  description: "Your profile page",
+  title: "Profil",
+  description: "Ihre Profilseite",
 };
 
 export default async function Page() {
