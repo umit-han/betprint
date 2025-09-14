@@ -33,6 +33,31 @@
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://www.betprint.de/impressum</loc>
+  <lastmod>2025-09-13T18:28:42+00:00</lastmod>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>https://www.betprint.de/agb</loc>
+  <lastmod>2025-09-13T18:28:42+00:00</lastmod>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>https://www.betprint.de/cancellation-policy</loc>
+  <lastmod>2025-09-13T18:28:42+00:00</lastmod>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>https://www.betprint.de/data-protection</loc>
+  <lastmod>2025-09-13T18:28:42+00:00</lastmod>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>https://www.betprint.de/cookie-policy</loc>
+  <lastmod>2025-09-13T18:28:42+00:00</lastmod>
+  <priority>0.50</priority>
+</url>
+<url>
   <loc>https://www.betprint.de/products/hat</loc>
   <lastmod>2025-09-13T18:28:42+00:00</lastmod>
   <priority>0.80</priority>
