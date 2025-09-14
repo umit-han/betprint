@@ -52,6 +52,7 @@ export default function MobileMenu({
         variant="ghost"
         className="inline-flex lg:hidden"
         onClick={() => setIsOpen(true)}
+        aria-label="mobile menu"
       >
         <MenuIcon />
       </Button>

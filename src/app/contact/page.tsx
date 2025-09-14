@@ -7,9 +7,8 @@ import { Mail, MapPin, Phone } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Kontakt",
-  description: "Haben Sie Fragen zu unseren Wettkassenzetteln oder benötigen Sie ein Angebot? Kontaktieren Sie uns per E-Mail, Telefon oder über das Kontaktformular.",
+  description: "Haben Sie Fragen zu unseren Thermorollen oder benötigen Sie ein Angebot? Kontaktieren Sie uns per E-Mail, Telefon oder über das Kontaktformular.",
 };
-
 export default function Contact() {
   return (
     <main className="mx-auto max-w-7xl space-y-10 px-5 py-10">

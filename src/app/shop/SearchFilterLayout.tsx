@@ -215,8 +215,8 @@ interface SortFilterProps {
 
 function SortFilter({ sort, updateSort }: SortFilterProps) {
   return (
-    <Select value={sort || "last_updated"} onValueChange={updateSort}>
-      <SelectTrigger className="w-fit gap-2 text-start">
+    <Select value={sort || "last_updated"} onValueChange={updateSort} aria-label="short filter">
+      <SelectTrigger className="w-fit gap-2 text-start" aria-label="short filter">
         <span>
           Sort by: <SelectValue />
         </span>

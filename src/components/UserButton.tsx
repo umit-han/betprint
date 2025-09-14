@@ -43,7 +43,7 @@ export default function UserButton({
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button size="icon" variant="ghost" className={className}>
+        <Button size="icon" variant="ghost" className={className} aria-label="user icon">
           <UserIcon />
         </Button>
       </DropdownMenuTrigger>
