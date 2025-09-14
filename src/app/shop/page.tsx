@@ -20,7 +20,8 @@ interface PageProps {
 
 export function generateMetadata({ searchParams: { q } }: PageProps): Metadata {
   return {
-    title: q ? `Results for "${q}"` : "Products",
+    title: q ? `Results for "${q}"` : "Online Shop für Wettkassenzettel und Thermorollen",
+    description: "Entdecken Sie unser Sortiment an hochwertigen Wettkassenzetteln und passenden Thermorollen. Alle Produkte für Ihr Wettbüro einfach und sicher online bestellen."
   };
 }
 

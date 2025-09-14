@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import AngebotForm from '@/components/AngebotForm';
 
 export const metadata: Metadata = {
-  title: "Anfrageformular",
-  description: "Bei Fragen kontaktieren Sie uns bitte.",
+  title: "Individuelles Angebot anfordern",
+  description: "Benötigen Sie größere Mengen an Wettkassenzetteln oder Thermorollen? Fordern Sie hier Ihr individuelles und unverbindliches Angebot an. Speziell für den Bedarf von Wettbüros.",
 };
 
 
