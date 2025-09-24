@@ -2,8 +2,11 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Widerrufsbelehrung",
-  description:
-    "Widerrufsbelehrung und Widerrufsformular der Yildiz Commercial GmbH.",
+  description: "Widerrufsbelehrung für den Internetshop „Betprint“ der YILDIZ Commercial GmbH. Informationen zum Widerrufsrecht, den Folgen und dem Ausschluss des Widerrufs.",
+  keywords: ["AGB", "Allgemeine Geschäftsbedingungen", "Betprint", "YILDIZ Commercial GmbH", "Online Shop", "Versandbedingungen", "Zahlungsbedingungen", "Widerrufsrecht", "Bonusprogramm", "Betprint Punkte", "Verbraucherrechte", "Kaufvertrag"],
+  alternates: {
+    canonical: "https://www.betprint.de/cancellation-policy",
+  },
 };
 
 export default function Page() {
@@ -13,99 +16,125 @@ export default function Page() {
         <h1 className="text-2xl font-bold tracking-tight md:text-4xl">
           Widerrufsbelehrung
         </h1>
-
-        <p>
-          Sie haben das Recht, binnen vierzehn Tagen ohne Angabe von Gründen
-          diesen Vertrag zu widerrufen. Die Widerrufsfrist beträgt vierzehn Tage
-          ab dem Tag des Vertragsabschlusses.
-        </p>
-        <p>
-          Um Ihr Widerrufsrecht auszuüben, müssen Sie uns (YILDIZ Commercial
-          GmbH, Albinistr. 9, 35576 Wetzlar, Telefon: 06441-5643606, E-Mail:
-          info@yildizcommercial.de) mittels einer eindeutigen Erklärung (z. B.
-          ein mit der Post versandter Brief oder E-Mail) über Ihren Entschluss,
-          diesen Vertrag zu widerrufen, informieren. Sie können dafür das
-          beigefügte Muster-Widerrufsformular verwenden, das jedoch nicht
-          vorgeschrieben ist.
-        </p>
-        <p>
-          Zur Wahrung der Widerrufsfrist reicht es aus, dass Sie die Mitteilung
-          über die Ausübung des Widerrufsrechts vor Ablauf der Widerrufsfrist
-          absenden.
-        </p>
-
-        <h2 className="pt-4 text-xl font-semibold">Folgen des Widerrufs</h2>
-        <p>
-          Wenn Sie diesen Vertrag widerrufen, haben wir Ihnen alle Zahlungen,
-          die wir von Ihnen erhalten haben, einschließlich der Lieferkosten
-          (mit Ausnahme der zusätzlichen Kosten, die sich daraus ergeben, dass
-          sie eine andere Art der Lieferung als die von uns angebotene
-          günstigste Standardlieferung gewählt haben), unverzüglich und
-          spätestens binnen vierzehn Tagen ab dem Tag zurückzuzahlen, an dem die
-          Mitteilung über Ihren Widerruf dieses Vertrags bei uns eingegangen
-          ist. Für diese Rückzahlung verwenden wir dasselbe Zahlungsmittel, das
-          Sie bei der ursprünglichen Transaktion eingesetzt haben, es sei denn,
-          mit Ihnen wurde ausdrücklich etwas anderes vereinbart; in keinem Fall
-          werden Ihnen wegen dieser Rückzahlung Entgelte berechnet.
-        </p>
-        <p>
-          Haben Sie verlangt, dass die Dienstleistung während der
-          Widerrufsfrist beginnen soll, so haben Sie uns einen angemessenen
-          Betrag zu zahlen, der dem Anteil der bis zu dem Zeitpunkt, zu dem Sie
-          uns von der Ausübung des Widerrufsrechts hinsichtlich dieses Vertrags
-          unterrichten, bereits erbrachten Dienstleistungen im Vergleich zum
-          Gesamtumfang der im Vertrag vorgesehenen Dienstleistungen entspricht.
-        </p>
-
-        <h2 className="pt-4 text-xl font-semibold">
-          Hinweis auf die Möglichkeit eines vorzeitigen Erlöschens des
-          Widerrufsrechts
+        <h2 className="pt-2 text-lg font-semibold">
+          der YILDIZ Commercial GmbH
+          <br />
+          für den Internetshop „Betprint“
         </h2>
-        <p>
-          Ihr Widerrufsrecht erlischt, wenn wir unsere Leistung vollständig
-          erbracht haben und mit der Ausführung der Leistung erst begonnen
-          haben, nachdem Sie Ihre ausdrückliche Zustimmung gegeben haben und
-          gleichzeitig Ihre Kenntnis davon bestätigt haben, dass Sie Ihr
-          Widerrufsrecht bei vollständiger Vertragserfüllung durch uns
-          verlieren.
-        </p>
 
-        <hr />
-
-        <h2 className="pt-4 text-xl font-semibold">Widerrufsformular</h2>
-        <p>
-          Wenn Sie den Vertrag widerrufen möchten, dann füllen Sie bitte dieses
-          Formular aus und senden Sie es zurück an:
-        </p>
-        <div className="rounded border bg-muted p-4">
+        <section className="space-y-4">
+          <h3 className="pt-4 text-xl font-semibold">Widerrufsrecht</h3>
           <p>
-            <strong>Yildiz Commercial GmbH</strong>
+            Sie haben das Recht, binnen 14 Tagen ohne Angabe von Gründen diesen
+            Vertrag zu widerrufen.
+          </p>
+          <p>Die Widerrufsfrist beträgt 14 Tage ab dem Tag,</p>
+          <ul className="list-disc space-y-2 pl-6">
+            <li>
+              an dem Sie oder ein von Ihnen benannter Dritter, der nicht der
+              Beförderer ist, die Waren in Besitz genommen haben, oder
+            </li>
+            <li>
+              im Falle einer einheitlichen Bestellung, die in mehreren
+              Teilsendungen oder Stücken geliefert wird, ab dem Tag, an dem Sie
+              oder ein von Ihnen benannter Dritter die letzte Teilsendung oder
+              das letzte Stück in Besitz genommen haben.
+            </li>
+          </ul>
+          <p>Um Ihr Widerrufsrecht auszuüben, müssen Sie uns,</p>
+          <div className="rounded border bg-muted p-4">
+            <strong>YILDIZ Commercial GmbH</strong>
             <br />
-            Albinistr. 9
+            Geschäftsführer: Özcan YILDIZ
+            <br />
+            Albinistraße 9
             <br />
             35576 Wetzlar
             <br />
-            <strong>Tel.:</strong> 06441 5643606
+            Deutschland
             <br />
-            <strong>E-Mail:</strong> info@yildizcommercial.de
-          </p>
-        </div>
-        <p>
-          Hiermit widerrufe(n) ich/wir (*) den von mir/uns (*) abgeschlossenen
-          Vertrag über den Kauf der folgenden Waren (*)/ die Erbringung der
-          folgenden Dienstleistung (*):
-        </p>
-        <div className="space-y-2 border-l-2 pl-4">
-          <p>– Bestellt am (*)/ erhalten am (*):</p>
-          <p>– Name des/der Verbraucher(s):</p>
-          <p>– Anschrift des/der Verbraucher(s):</p>
-          <p>– Datum:</p>
+            Tel.: +49 (0) 6441 5643606
+            <br />
+            E-Mail: info@betprint.de
+          </div>
           <p>
-            – Unterschrift des/der Verbraucher(s) (nur bei Mitteilung auf
-            Papier):
+            mittels einer eindeutigen Erklärung (z. B. per Post, Telefax oder
+            E-Mail) über Ihren Entschluss, diesen Vertrag zu widerrufen,
+            informieren.
           </p>
-        </div>
-        <p>(*) Unzutreffendes streichen.</p>
+          <p>
+            Sie können dafür unser Muster-Widerrufsformular verwenden, das
+            jedoch nicht vorgeschrieben ist. Wenn Sie das Formular oder eine
+            andere eindeutige Erklärung elektronisch über unsere Website
+            übermitteln, werden wir Ihnen unverzüglich (z. B. per E-Mail) eine
+            Bestätigung über den Eingang des Widerrufs zukommen lassen.
+          </p>
+          <p>
+            Zur Wahrung der Widerrufsfrist reicht es aus, dass Sie die
+            Mitteilung über die Ausübung des Widerrufs vor Ablauf der
+            Widerrufsfrist absenden.
+          </p>
+        </section>
+
+        <section className="space-y-4">
+          <h3 className="pt-4 text-xl font-semibold">Folgen des Widerrufs</h3>
+          <p>
+            Wenn Sie diesen Vertrag widerrufen, haben wir Ihnen alle Zahlungen,
+            die wir von Ihnen erhalten haben – einschließlich der Lieferkosten
+            (mit Ausnahme der zusätzlichen Kosten, die sich daraus ergeben, dass
+            Sie eine andere Art der Lieferung als die von uns angebotene,
+            günstigste Standardlieferung gewählt haben) – unverzüglich und
+            spätestens binnen 14 Tagen ab dem Tag zurückzuzahlen, an dem die
+            Mitteilung über Ihren Widerruf bei uns eingegangen ist.
+          </p>
+          <p>
+            Für die Rückzahlung verwenden wir dasselbe Zahlungsmittel, das Sie
+            bei der ursprünglichen Transaktion eingesetzt haben, es sei denn,
+            mit Ihnen wurde ausdrücklich etwas anderes vereinbart. In keinem
+            Fall werden Ihnen wegen dieser Rückzahlung Entgelte berechnet.
+          </p>
+          <p>
+            Wir können die Rückzahlung verweigern, bis wir die Waren wieder
+            zurückerhalten haben oder bis Sie den Nachweis erbracht haben, dass
+            Sie die Waren zurückgesandt haben – je nachdem, welches der frühere
+            Zeitpunkt ist.
+          </p>
+          <p>
+            Sie haben die Waren unverzüglich und in jedem Fall spätestens binnen
+            14 Tagen ab dem Tag, an dem Sie uns über den Widerruf dieses
+            Vertrages informieren, an uns zurückzusenden oder zu übergeben. Die
+            Frist ist gewahrt, wenn Sie die Waren vor Ablauf der Frist von 14
+            Tagen absenden.
+          </p>
+          <p>Sie tragen die unmittelbaren Kosten der Rücksendung der Waren.</p>
+          <p>
+            Für einen etwaigen Wertverlust der Waren müssen Sie nur aufkommen,
+            wenn dieser Wertverlust auf einen zur Prüfung der Beschaffenheit,
+            Eigenschaften und Funktionsweise der Waren nicht notwendigen Umgang
+            mit ihnen zurückzuführen ist.
+          </p>
+        </section>
+
+        <section className="space-y-4">
+          <h3 className="pt-4 text-xl font-semibold">
+            Ausschluss des Widerrufsrechts
+          </h3>
+          <p>
+            Das Widerrufsrecht besteht nicht bei Verträgen zur Lieferung von
+            Waren, die:
+          </p>
+          <ul className="list-disc space-y-2 pl-6">
+            <li>
+              nicht vorgefertigt sind und für deren Herstellung eine
+              individuelle Auswahl oder Bestimmung durch den Verbraucher
+              maßgeblich ist, oder
+            </li>
+            <li>
+              eindeutig auf die persönlichen Bedürfnisse des Verbrauchers
+              zugeschnitten sind.
+            </li>
+          </ul>
+        </section>
       </div>
     </main>
   );
