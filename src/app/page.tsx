@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import banner from "@/assets/banner.jpg";
+import banner from "@/assets/banner.jpeg";
 import Product from "@/components/Product";
 import { Button } from "@/components/ui/button";
 import { Skeleton } from "@/components/ui/skeleton";
@@ -14,20 +14,32 @@ import { Suspense } from "react";
 export const metadata: Metadata = {
   title: "Wettkassenzettel & Thermorollen Online Kaufen",
   description: "Ihr Spezialist für Wettkassenzettel. Wir liefern hochwertige Thermorollen, perfekt für die Anforderungen von Wettbüros. Top-Qualität & schnelle Lieferung garantiert.",
+  keywords: ["Wettkassenzettel", "Thermorollen", "Wettbürobedarf", "Bonrollen", "Kassenzettel", "Thermopapier", "Bondruckerrollen", "Hochwertige Thermorollen", "Schnelle Lieferung", "Betprint"],
+  alternates: {
+    canonical: "https://www.betprint.de",
+  },
 };
 
 export default function Home() {
   return (
     <main className="mx-auto max-w-7xl space-y-10 px-5 py-5">
       <div className="flex items-center bg-secondary md:h-120">
-        <div className="space-y-7 p-10 text-center md:w-1/2">
-          <h1 className="text-3xl font-bold md:text-4xl">
-            Verantwortung &amp; Qualität – produziert in Deutschland
+        <div className="space-y-7 p-8 text-left md:w-1/2">
+          <h1 className="text-2xl font-bold md:text-3xl">
+          Thermorollen für Wettbüros – zuverlässig, nachhaltig, Made in
+          Germany
           </h1>
           <p>
-            Unsere Thermorollen werden in Deutschland produziert und sind mit dem FSC®-Zertifikat für
-            verantwortungsvolle Forstwirtschaft ausgezeichnet. Sie sind speziell für den Einsatz in
-            Thermodruckern entwickelt und gewährleisten eine zuverlässige Druckqualität.
+          Als spezialisierter Partner für Wettbüros in Deutschland liefern wir Thermorollen, die
+präzise auf die Bondrucker und Terminals aller lizenzierten Wettanbieter abgestimmt sind.
+Ob Quittungen, Wettscheine oder Belege – unsere Produkte stehen für Zuverlässigkeit,
+Langlebigkeit und ein hohes Maß an Umweltbewusstsein.
+Unsere Thermorollen werden ausschließlich in Deutschland produziert – nach strengen
+Umwelt- und Qualitätsstandards. Sie sind frei von Bisphenolen (BPA, BPS, BPF) sowie
+phenolhaltigen Farbentwicklern und bieten damit eine sichere und nachhaltige Lösung für
+den täglichen Betrieb.
+Ihr Vorteil: Thermorollen, die exakt auf die Bedürfnisse von Wettshops zugeschnitten sind –
+nachhaltig, sicher und sofort einsatzbereit.
           </p>
           <Button asChild>
             <Link href="/shop">
