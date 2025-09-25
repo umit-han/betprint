@@ -25,21 +25,23 @@ export default function Home() {
     <main className="mx-auto max-w-7xl space-y-10 px-5 py-5">
       <div className="flex items-center bg-secondary md:h-120">
         <div className="space-y-7 p-8 text-left md:w-1/2">
-          <h1 className="text-2xl font-bold md:text-3xl">
-          Thermorollen für Wettbüros – zuverlässig, nachhaltig, Made in
-          Germany
+          <h1 className="text-2xl font-medium md:text-3xl">
+          Thermorollen für Wettbüros – zuverlässig, nachhaltig,  
+          <span className="block text-2xl md:text-4xl">
+            Made in Germany
+          </span>
           </h1>
           <p>
           Als spezialisierter Partner für Wettbüros in Deutschland liefern wir Thermorollen, die
-präzise auf die Bondrucker und Terminals aller lizenzierten Wettanbieter abgestimmt sind.
-Ob Quittungen, Wettscheine oder Belege – unsere Produkte stehen für Zuverlässigkeit,
-Langlebigkeit und ein hohes Maß an Umweltbewusstsein.
-Unsere Thermorollen werden ausschließlich in Deutschland produziert – nach strengen
-Umwelt- und Qualitätsstandards. Sie sind frei von Bisphenolen (BPA, BPS, BPF) sowie
-phenolhaltigen Farbentwicklern und bieten damit eine sichere und nachhaltige Lösung für
-den täglichen Betrieb.
-Ihr Vorteil: Thermorollen, die exakt auf die Bedürfnisse von Wettshops zugeschnitten sind –
-nachhaltig, sicher und sofort einsatzbereit.
+          präzise auf die Bondrucker und Terminals aller lizenzierten Wettanbieter abgestimmt sind.
+          Ob Quittungen, Wettscheine oder Belege – unsere Produkte stehen für Zuverlässigkeit,
+          Langlebigkeit und ein hohes Maß an Umweltbewusstsein.
+          Unsere Thermorollen werden ausschließlich in Deutschland produziert – nach strengen
+          Umwelt- und Qualitätsstandards. Sie sind frei von Bisphenolen (BPA, BPS, BPF) sowie
+          phenolhaltigen Farbentwicklern und bieten damit eine sichere und nachhaltige Lösung für
+          den täglichen Betrieb.
+          Ihr Vorteil: Thermorollen, die exakt auf die Bedürfnisse von Wettshops zugeschnitten sind –
+          nachhaltig, sicher und sofort einsatzbereit.
           </p>
           <Button asChild>
             <Link href="/shop">
