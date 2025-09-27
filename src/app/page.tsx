@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import banner from "@/assets/banner.jpeg";
 import rolleInfo from "@/assets/rolle-info.png";
 import scorBoard from "@/assets/score-board.jpeg";
+import tRolle1 from "@/assets/t-rolle-1.png";
+import tRolle2 from "@/assets/t-rolle-2.jpg";
 import Product from "@/components/Product";
 import { Button } from "@/components/ui/button";
 import { Skeleton } from "@/components/ui/skeleton";
@@ -89,9 +91,46 @@ async function FeaturedProducts() {
   return (
     <div className="space-y-5">
       <div className="flex grid-cols-2 flex-col gap-5 sm:grid md:grid-cols-3 lg:grid-cols-4">
-        {featuredProducts.items.map((product) => (
+        {/* {featuredProducts.items.map((product) => (
           <Product key={product._id} product={product} />
-        ))}
+        ))} */}
+
+        <div className="relative overflow-hidden">
+          <Image
+            src={tRolle1}
+            alt="Thermorolle 1"
+            width={700}
+            height={700}
+            className="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
+          />
+        </div>
+        <div className="relative overflow-hidden">
+          <Image
+            src={rolleInfo}
+            alt="Info zu unseren Thermorollen"
+            width={700}
+            height={700}
+            className="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
+          />
+        </div>
+        <div className="relative overflow-hidden">
+          <Image
+            src={tRolle2}
+            alt="Scoreboard"
+            width={700}
+            height={700}
+            className="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
+          />
+        </div>
+        <div className="relative overflow-hidden">
+          <Image
+            src={scorBoard}
+            alt="Scoreboard"
+            width={700}
+            height={700}
+            className="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
+          />
+        </div>
       </div>
     </div>
   );
