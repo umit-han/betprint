@@ -10,7 +10,7 @@ import { Skeleton } from "@/components/ui/skeleton";
 import { getWixServerClient } from "@/lib/wix-client.server";
 import { getCollectionBySlug } from "@/wix-api/collections";
 import { queryProducts } from "@/wix-api/products";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight,Leaf, Headphones, Lock } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { Suspense } from "react";
@@ -23,6 +23,10 @@ export const metadata: Metadata = {
     canonical: "https://www.betprint.de",
   },
 };
+
+const items = [ { icon: <Leaf className="text-primary w-8 h-8" />, text: "Umweltfreundlich hergestellt", }, 
+  { icon: <Headphones className="text-primary w-8 h-8" />, text: "Telefonische Beratung", }, 
+  { icon: <Lock className="text-primary w-8 h-8" />, text: "Sichere Zahlung", }, ];
 
 export default function Home() {
   return (
@@ -90,6 +94,8 @@ async function FeaturedProducts() {
 
   return (
     <div className="space-y-5">
+
+<div className="flex justify-around items-center gap-8 py-8"> {items.map((item, i) => ( <div key={i} className="flex items-center gap-3"> {item.icon} <span className="font-bold text-xl">{item.text}</span> </div> ))} </div>
       <div className="flex grid-cols-2 flex-col gap-5 sm:grid md:grid-cols-3 lg:grid-cols-4">
         {/* {featuredProducts.items.map((product) => (
           <Product key={product._id} product={product} />
