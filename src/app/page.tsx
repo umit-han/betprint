@@ -24,8 +24,8 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className="w-full space-y-10  py-5">
-      <div className="flex items-center bg-secondary md:h-120">
+    <main className="w-full space-y-4 pb-5">
+      <div className="flex items-start bg-secondary md:h-120">
         <div className="space-y-7 p-8 text-left md:w-1/2">
           <h1 className="text-2xl font-medium md:text-[21px] text-center">
           Thermorollen für Wettbüros – zuverlässig, nachhaltig,  
