@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import banner from "@/assets/banner.jpeg";
+import rolleInfo from "@/assets/rolle-info.png";
+import scorBoard from "@/assets/score-board.jpeg";
 import Product from "@/components/Product";
 import { Button } from "@/components/ui/button";
 import { Skeleton } from "@/components/ui/skeleton";
@@ -12,9 +14,9 @@ import Link from "next/link";
 import { Suspense } from "react";
 
 export const metadata: Metadata = {
-  title: "Wettkassenzettel & Thermorollen Online Kaufen",
+  title: "Thermorollen Online Kaufen",
   description: "Ihr Spezialist für Wettkassenzettel. Wir liefern hochwertige Thermorollen, perfekt für die Anforderungen von Wettbüros. Top-Qualität & schnelle Lieferung garantiert.",
-  keywords: ["Wettkassenzettel", "Thermorollen", "Wettbürobedarf", "Bonrollen", "Kassenzettel", "Thermopapier", "Bondruckerrollen", "Hochwertige Thermorollen", "Schnelle Lieferung", "Betprint"],
+  keywords: ["Thermorollen", "Wettbürobedarf", "Bonrollen", "Kassenzettel", "Thermopapier", "Bondruckerrollen", "Hochwertige Thermorollen", "Schnelle Lieferung", "Betprint"],
   alternates: {
     canonical: "https://www.betprint.de",
   },
@@ -88,6 +90,25 @@ async function FeaturedProducts() {
         {featuredProducts.items.map((product) => (
           <Product key={product._id} product={product} />
         ))}
+
+        <div className="relative overflow-hidden">
+          <Image
+            src={rolleInfo}
+            alt="Info zu unseren Thermorollen"
+            width={700}
+            height={700}
+            className="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
+          />
+        </div>
+        <div className="relative overflow-hidden">
+          <Image
+            src={scorBoard}
+            alt="Scoreboard"
+            width={700}
+            height={700}
+            className="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
+          />
+        </div>
       </div>
     </div>
   );
