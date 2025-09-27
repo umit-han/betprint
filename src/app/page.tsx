@@ -100,7 +100,7 @@ async function FeaturedProducts() {
           <Product key={product._id} product={product} />
         ))} */}
 
-        <div className="relative overflow-hidden flex justify-center">
+        <div className="relative overflow-hidden flex justify-center items-center">
           <Image
             src={tRolle1}
             alt="Thermorolle 1"
@@ -109,7 +109,7 @@ async function FeaturedProducts() {
             className="max-w-[300px] max-h-[300px] h-full w-full object-cover transition-transform duration-300 hover:scale-105"
           />
         </div>
-        <div className="relative overflow-hidden">
+        <div className="relative overflow-hidden flex justify-center items-center">
           <Image
             src={rolleInfo}
             alt="Info zu unseren Thermorollen"
@@ -118,7 +118,7 @@ async function FeaturedProducts() {
             className="max-w-[300px] max-h-[300px] h-full w-full object-cover transition-transform duration-300 hover:scale-105"
           />
         </div>
-        <div className="relative overflow-hidden">
+        <div className="relative overflow-hidden flex justify-center items-center">
           <Image
             src={tRolle2}
             alt="Scoreboard"
@@ -127,7 +127,7 @@ async function FeaturedProducts() {
             className="max-w-[300px] max-h-[300px] h-full w-full object-cover transition-transform duration-300 hover:scale-105"
           />
         </div>
-        <div className="relative overflow-hidden">
+        <div className="relative overflow-hidden flex justify-center items-center">
           <Image
             src={tRolle3}
             alt="Scoreboard"
