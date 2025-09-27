@@ -67,7 +67,7 @@ export default function Home() {
         </div>
       </div>
       <div className="flex justify-around items-center gap-8 py-8"> {items.map((item, i) => ( <div key={i} className="flex items-center gap-3"> {item.icon} <span className="font-bold text-xl">{item.text}</span> </div> ))} </div>
-      <div className="mx-auto max-w-7xl ">
+      <div className="mx-auto max-w-8xl ">
       <Suspense fallback={<LoadingSkeleton />}>
         <FeaturedProducts />
       </Suspense>
@@ -100,13 +100,13 @@ async function FeaturedProducts() {
           <Product key={product._id} product={product} />
         ))} */}
 
-        <div className="relative overflow-hidden">
+        <div className="relative overflow-hidden flex justify-center">
           <Image
             src={tRolle1}
             alt="Thermorolle 1"
-            width={700}
-            height={700}
-            className="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
+            width={300}
+            height={300}
+            className="max-w-[300px] max-h-[300px] h-full w-full object-cover transition-transform duration-300 hover:scale-105"
           />
         </div>
         <div className="relative overflow-hidden">
@@ -115,7 +115,7 @@ async function FeaturedProducts() {
             alt="Info zu unseren Thermorollen"
             width={700}
             height={700}
-            className="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
+            className="max-w-[300px] max-h-[300px] h-full w-full object-cover transition-transform duration-300 hover:scale-105"
           />
         </div>
         <div className="relative overflow-hidden">
@@ -124,7 +124,7 @@ async function FeaturedProducts() {
             alt="Scoreboard"
             width={700}
             height={700}
-            className="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
+            className="max-w-[300px] max-h-[300px] h-full w-full object-cover transition-transform duration-300 hover:scale-105"
           />
         </div>
         <div className="relative overflow-hidden">
@@ -133,7 +133,7 @@ async function FeaturedProducts() {
             alt="Scoreboard"
             width={700}
             height={700}
-            className="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
+            className="max-w-[300px] max-h-[300px] h-full w-full object-cover transition-transform duration-300 hover:scale-105"
           />
         </div>
       </div>
