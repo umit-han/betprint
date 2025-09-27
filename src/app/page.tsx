@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import banner from "@/assets/banner.jpeg";
 import rolleInfo from "@/assets/rolle-info.png";
-import scorBoard from "@/assets/score-board.jpeg";
+import tRolle3 from "@/assets/t-rolle-3.jpg";
 import tRolle1 from "@/assets/t-rolle-1.png";
 import tRolle2 from "@/assets/t-rolle-2.jpg";
 import Product from "@/components/Product";
@@ -129,7 +129,7 @@ async function FeaturedProducts() {
         </div>
         <div className="relative overflow-hidden">
           <Image
-            src={scorBoard}
+            src={tRolle3}
             alt="Scoreboard"
             width={700}
             height={700}
