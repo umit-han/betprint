@@ -27,13 +27,13 @@ export default function Home() {
     <main className="mx-auto max-w-7xl space-y-10 px-5 py-5">
       <div className="flex items-center bg-secondary md:h-120">
         <div className="space-y-7 p-8 text-left md:w-1/2">
-          <h1 className="text-2xl font-medium md:text-3xl">
+          <h1 className="text-2xl font-medium md:text-[21px]">
           Thermorollen für Wettbüros – zuverlässig, nachhaltig,  
-          <span className="block text-2xl md:text-4xl">
+          </h1>
+          <p className="!mt-2">
+          <span className="block text-2xl md:text-4xl text-center font-bold mb-3">
             Made in Germany
           </span>
-          </h1>
-          <p>
           Als spezialisierter Partner für Wettbüros in Deutschland liefern wir Thermorollen, die
           präzise auf die Bondrucker und Terminals aller lizenzierten Wettanbieter abgestimmt sind.
           Ob Quittungen, Wettscheine oder Belege – unsere Produkte stehen für Zuverlässigkeit,
@@ -55,7 +55,7 @@ export default function Home() {
           <Image
             src={banner}
             alt="Bet Print Shop banner"
-            className="h-full object-cover"
+            className="h-[54dvh] object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-secondary via-transparent to-transparent" />
         </div>
