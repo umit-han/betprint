@@ -25,7 +25,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main className="w-full space-y-4 pb-5">
-      <div className="flex items-start bg-secondary md:h-120">
+      <div className="flex items-start bg-secondary h-[65vh]">
         <div className="space-y-7 p-8 text-left md:w-1/2">
           <h1 className="text-2xl font-medium md:text-[21px] text-center">
           Thermorollen für Wettbüros – zuverlässig, nachhaltig,  
@@ -55,7 +55,7 @@ export default function Home() {
           <Image
             src={banner}
             alt="Bet Print Shop banner"
-            className="h-[54dvh] object-cover"
+            className="h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-secondary via-transparent to-transparent" />
         </div>
