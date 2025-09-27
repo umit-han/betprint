@@ -92,25 +92,6 @@ async function FeaturedProducts() {
         {featuredProducts.items.map((product) => (
           <Product key={product._id} product={product} />
         ))}
-
-        <div className="relative overflow-hidden">
-          <Image
-            src={rolleInfo}
-            alt="Info zu unseren Thermorollen"
-            width={700}
-            height={700}
-            className="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
-          />
-        </div>
-        <div className="relative overflow-hidden">
-          <Image
-            src={scorBoard}
-            alt="Scoreboard"
-            width={700}
-            height={700}
-            className="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
-          />
-        </div>
       </div>
     </div>
   );
