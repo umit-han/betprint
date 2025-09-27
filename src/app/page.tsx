@@ -66,6 +66,7 @@ export default function Home() {
           <div className="absolute inset-0 bg-gradient-to-r from-secondary via-transparent to-transparent" />
         </div>
       </div>
+      <div className="flex justify-around items-center gap-8 py-8"> {items.map((item, i) => ( <div key={i} className="flex items-center gap-3"> {item.icon} <span className="font-bold text-xl">{item.text}</span> </div> ))} </div>
       <div className="mx-auto max-w-7xl ">
       <Suspense fallback={<LoadingSkeleton />}>
         <FeaturedProducts />
@@ -94,9 +95,7 @@ async function FeaturedProducts() {
 
   return (
     <div className="space-y-5">
-
-<div className="flex justify-around items-center gap-8 py-8"> {items.map((item, i) => ( <div key={i} className="flex items-center gap-3"> {item.icon} <span className="font-bold text-xl">{item.text}</span> </div> ))} </div>
-      <div className="flex grid-cols-2 flex-col gap-5 sm:grid md:grid-cols-3 lg:grid-cols-4">
+      <div className="flex grid-cols-2 flex-col gap-8 sm:grid md:grid-cols-3 lg:grid-cols-4 mt-8">
         {/* {featuredProducts.items.map((product) => (
           <Product key={product._id} product={product} />
         ))} */}
