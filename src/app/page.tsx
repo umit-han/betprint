@@ -24,14 +24,14 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className="mx-auto max-w-7xl space-y-10 px-5 py-5">
+    <main className="w-full space-y-10  py-5">
       <div className="flex items-center bg-secondary md:h-120">
         <div className="space-y-7 p-8 text-left md:w-1/2">
-          <h1 className="text-2xl font-medium md:text-[21px]">
+          <h1 className="text-2xl font-medium md:text-[21px] text-center">
           Thermorollen für Wettbüros – zuverlässig, nachhaltig,  
           </h1>
           <p className="!mt-2">
-          <span className="block text-2xl md:text-4xl text-center font-bold mb-3">
+          <span className="block text-2xl md:text-2xl text-center font-bold mb-3">
             Made in Germany
           </span>
           Als spezialisierter Partner für Wettbüros in Deutschland liefern wir Thermorollen, die
@@ -60,9 +60,11 @@ export default function Home() {
           <div className="absolute inset-0 bg-gradient-to-r from-secondary via-transparent to-transparent" />
         </div>
       </div>
+      <div className="mx-auto max-w-7xl ">
       <Suspense fallback={<LoadingSkeleton />}>
         <FeaturedProducts />
       </Suspense>
+      </div>
     </main>
   );
 }
