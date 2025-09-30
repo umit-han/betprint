@@ -1,9 +1,12 @@
 import type { Metadata } from "next";
 import banner from "@/assets/banner.jpeg";
 import rolleInfo from "@/assets/rolle-info.png";
-import tRolle3 from "@/assets/t-rolle-3.jpg";
 import tRolle1 from "@/assets/t-rolle-1.png";
 import tRolle2 from "@/assets/t-rolle-2.jpg";
+import tRolle3 from "@/assets/t-rolle-3.jpg";
+import tRolle4 from "@/assets/t-rolle-4.png";
+import tRolle5 from "@/assets/t-rolle-5.png";
+
 import Product from "@/components/Product";
 import { Button } from "@/components/ui/button";
 import { Skeleton } from "@/components/ui/skeleton";
@@ -102,7 +105,7 @@ async function FeaturedProducts() {
 
         <div className="relative overflow-hidden flex justify-center items-center">
           <Image
-            src={tRolle1}
+            src={tRolle4}
             alt="Thermorolle 1"
             width={300}
             height={300}
@@ -121,7 +124,7 @@ async function FeaturedProducts() {
         <div className="relative overflow-hidden flex justify-center items-center">
           <Image
             src={tRolle2}
-            alt="Scoreboard"
+            alt="Thermorolle"
             width={700}
             height={700}
             className="max-w-[300px] max-h-[300px] h-full w-full object-cover transition-transform duration-300 hover:scale-105"
@@ -129,8 +132,8 @@ async function FeaturedProducts() {
         </div>
         <div className="relative overflow-hidden flex justify-center items-center">
           <Image
-            src={tRolle3}
-            alt="Scoreboard"
+            src={tRolle5}
+            alt="Thermorolle"
             width={700}
             height={700}
             className="max-w-[300px] max-h-[300px] h-full w-full object-cover transition-transform duration-300 hover:scale-105"
