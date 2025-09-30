@@ -5,7 +5,7 @@ import tRolle1 from "@/assets/t-rolle-1.png";
 import tRolle2 from "@/assets/t-rolle-2.jpg";
 import tRolle3 from "@/assets/t-rolle-3.jpg";
 import tRolle4 from "@/assets/t-rolle-4.png";
-import tRolle5 from "@/assets/t-rolle-5.png";
+import kRolle1 from "@/assets/k-rolle-1.png";
 
 import Product from "@/components/Product";
 import { Button } from "@/components/ui/button";
@@ -27,20 +27,20 @@ export const metadata: Metadata = {
   },
 };
 
-const items = [ { icon: <Leaf className="text-primary w-8 h-8" />, text: "Umweltfreundlich hergestellt", }, 
-  { icon: <Headphones className="text-primary w-8 h-8" />, text: "Telefonische Beratung", }, 
-  { icon: <Lock className="text-primary w-8 h-8" />, text: "Sichere Zahlung", }, ];
+const items = [ { icon: <Leaf className="text-primary w-6 h-6 lg:w-8 lg:h-8" />, text: "Umweltfreundlich hergestellt", }, 
+  { icon: <Headphones className="text-primary w-6 h-6 lg:w-8 lg:h-8" />, text: "Telefonische Beratung", }, 
+  { icon: <Lock className="text-primary w-6 h-6 lg:w-8 lg:h-8" />, text: "Sichere Zahlung", }, ];
 
 export default function Home() {
   return (
     <main className="w-full space-y-4 pb-5">
-      <div className="flex items-center bg-secondary h-[65vh] mx-6">
+      <div className="flex items-center bg-secondary h-[65 mx-6">
         <div className="space-y-7 p-8 text-left md:w-1/2">
-          <h1 className="text-2xl font-medium md:text-2xl text-center">
+          <h1 className="text-xl font-medium lg:text-2xl text-center">
           Thermorollen für Wettbüros – zuverlässig, nachhaltig,  
           </h1>
-          <p className="!mt-2 text-lg">
-          <span className="block text-2xl md:text-2xl text-center font-bold mb-3">
+          <p className="!mt-2 text:sm lg:text-lg">
+          <span className="block text-xl lg:text-2xl text-center font-bold mb-3">
             Made in Germany
           </span>
           Als spezialisierter Partner für Wettbüros in Deutschland liefern wir Thermorollen, die
@@ -69,7 +69,7 @@ export default function Home() {
           <div className="absolute inset-0 bg-gradient-to-r from-secondary via-transparent to-transparent" />
         </div>
       </div>
-      <div className="flex justify-around items-center gap-8 py-8"> {items.map((item, i) => ( <div key={i} className="flex items-center gap-3"> {item.icon} <span className="font-bold text-xl">{item.text}</span> </div> ))} </div>
+      <div className="flex flex-wrap justify-center lg:justify-around items-center gap-8 py-8"> {items.map((item, i) => ( <div key={i} className="flex items-center gap-3"> {item.icon} <span className="font-bold text-sm lg:text-xl">{item.text}</span> </div> ))} </div>
       <div className="mx-auto max-w-8xl ">
       <Suspense fallback={<LoadingSkeleton />}>
         <FeaturedProducts />
@@ -132,7 +132,7 @@ async function FeaturedProducts() {
         </div>
         <div className="relative overflow-hidden flex justify-center items-center">
           <Image
-            src={tRolle5}
+            src={kRolle1}
             alt="Thermorolle"
             width={700}
             height={700}
