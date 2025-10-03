@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="grid grid-cols-2 gap-x-12 gap-y-16 md:col-span-3 lg:grid-cols-6">
           <div className="col-span-2 md:col-span-3 lg:col-span-2 lg:pr-8">
             <div className="text-2xl font-bold">Bet Print</div>
-            <p className="mt-7 text-base leading-relaxed text-muted-foreground">
+            <p className="mt-7 text-base leading-relaxed text-accent-foreground">
               Hochwertiger Druck für all Ihre Bedürfnisse. Schnell, zuverlässig
               und professionell.
             </p>
@@ -89,7 +89,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <p className="text-sm font-semibold uppercase tracking-widest text-muted-foreground">
+            <p className="text-sm font-semibold uppercase tracking-widest text-accent-foreground">
               Unternehmen
             </p>
 
@@ -156,7 +156,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <p className="text-sm font-semibold uppercase tracking-widest text-muted-foreground">
+            <p className="text-sm font-semibold uppercase tracking-widest text-accent-foreground">
               Hilfe
             </p>
 
@@ -184,7 +184,7 @@ export default function Footer() {
           </div>
 
           <div className="col-span-2 md:col-span-1 lg:col-span-2 lg:pl-8">
-            <p className="text-sm font-semibold uppercase tracking-widest text-muted-foreground">
+            <p className="text-sm font-semibold uppercase tracking-widest text-accent-foreground">
               Newsletter abonnieren
             </p>
 
@@ -215,7 +215,7 @@ export default function Footer() {
 
         <hr className="mb-10 mt-16" />
 
-        <p className="text-center text-sm text-muted-foreground">
+        <p className="text-center text-sm text-accent-foreground">
           © Copyright {new Date().getFullYear()}, Alle Rechte vorbehalten von
           Bet Print
         </p>
