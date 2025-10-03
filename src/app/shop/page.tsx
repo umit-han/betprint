@@ -21,7 +21,11 @@ interface PageProps {
 export function generateMetadata({ searchParams: { q } }: PageProps): Metadata {
   return {
     title: q ? `Results for "${q}"` : "Online Shop für Thermorollen",
-    description: "Entdecken Sie unser Sortiment an hochwertigen Wettkassenzetteln und passenden Thermorollen. Alle Produkte für Ihr Wettbüro einfach und sicher online bestellen."
+    description: "Entdecken Sie unser Sortiment an hochwertigen Thermorollen. Alle Produkte für Ihr Wettbüro einfach und sicher online bestellen.",
+    keywords: ["Thermorollen", "Wettbürobedarf", "Bonrollen", "Kassenzettel", "Thermopapier", "Bondruckerrollen", "Hochwertige Thermorollen", "Schnelle Lieferung", "Betprint"],
+    alternates: {
+      canonical: "https://www.betprint.de/shop",
+    },
   };
 }
 
