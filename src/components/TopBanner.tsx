@@ -2,7 +2,9 @@ import { Leaf, Phone } from "lucide-react";
 
 export default function TopBanner() {
   return (
-    <div className="bg-primary px-4 py-2 text-sm text-primary-foreground">
+    <>
+      <div className="w-full bg-white p-2"></div>
+      <div className="bg-primary px-4 py-2 text-sm text-primary-foreground">
       <div className="mx-auto flex max-w-screen-lg flex-wrap items-center justify-center gap-4 sm:justify-between">
         <div className="hidden items-center gap-2 md:flex">
           <Leaf className="h-4 w-4" />
@@ -16,5 +18,8 @@ export default function TopBanner() {
         </div>
       </div>
     </div>
+    
+    </>
+
   );
 }
