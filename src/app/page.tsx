@@ -70,7 +70,6 @@ export default function Home() {
           <div className="absolute inset-0 bg-gradient-to-r from-secondary via-transparent to-transparent" />
         </div>
       </div>
-      <div className="flex flex-wrap justify-center lg:justify-around items-center gap-8 py-8"> {items.map((item, i) => ( <div key={i} className="flex items-center gap-3"> {item.icon} <span className="font-bold text-sm lg:text-xl">{item.text}</span> </div> ))} </div>
       <div className="mx-auto max-w-8xl ">
       <Suspense fallback={<LoadingSkeleton />}>
         <FeaturedProducts />
