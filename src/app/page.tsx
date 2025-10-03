@@ -19,9 +19,9 @@ import Link from "next/link";
 import { Suspense } from "react";
 
 export const metadata: Metadata = {
-  title: "Thermorollen Online Kaufen",
-  description: "Ihr Spezialist für Wettkassenzettel. Wir liefern hochwertige Thermorollen, perfekt für die Anforderungen von Wettbüros. Top-Qualität & schnelle Lieferung garantiert.",
-  keywords: ["Thermorollen", "Wettbürobedarf", "Bonrollen", "Kassenzettel", "Thermopapier", "Bondruckerrollen", "Hochwertige Thermorollen", "Schnelle Lieferung", "Betprint"],
+  title: "Thermorollen | Made in Germany | Betprint",
+  description: "Betprint ist Ihr Spezialist für hochwertige Thermorollen, die speziell auf die Anforderungen von Wettbüros in Deutschland zugeschnitten sind. BPA-frei & schnelle Lieferung.",
+  keywords: ["Thermorollen", "Wettbüro", "Wettbürobedarf", "Bonrollen", "Kassenrollen", "Thermopapier", "Bondruckerrollen", "BPA-frei", "Made in Germany", "Betprint"],
   alternates: {
     canonical: "https://www.betprint.de",
   },

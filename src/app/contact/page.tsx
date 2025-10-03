@@ -8,6 +8,10 @@ import { Mail, MapPin, Phone } from "lucide-react";
 export const metadata: Metadata = {
   title: "Kontakt",
   description: "Haben Sie Fragen zu unseren Thermorollen oder benötigen Sie ein Angebot? Kontaktieren Sie uns per E-Mail, Telefon oder über das Kontaktformular.",
+  keywords: ["Kontakt", "Betprint", "Thermorollen", "Wettbürobedarf", "Angebot anfordern", "Kundenservice", "Yildiz Commercial GmbH"],
+  alternates: {
+    canonical: "https://www.betprint.de/contact",
+  },
 };
 export default function Contact() {
   return (

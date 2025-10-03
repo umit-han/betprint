@@ -4,6 +4,9 @@ export const metadata: Metadata = {
   title: "Datenschutz",
   description: "Datenschutzerklärung für Betprint, eine Marke der Yildiz Commercial GmbH. Informationen zur Erhebung, Speicherung und Verwendung personenbezogener Daten.",
   keywords: ["Datenschutz", "Datenschutzerklärung", "Betprint", "Yildiz Commercial GmbH", "DSGVO", "Personenbezogene Daten", "Cookies"],
+  alternates: {
+    canonical: "https://www.betprint.de/data-protection",
+  },
 };
 
 export default function Page() {

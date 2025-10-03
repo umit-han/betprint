@@ -3,6 +3,10 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Cookie Richtlinie",
   description: "Cookie Richtlinie der Yildiz Commercial GmbH.",
+  keywords: ["Cookie Richtlinie", "Cookies", "Betprint", "Yildiz Commercial GmbH", "Datenschutz", "Online Shop"],
+  alternates: {
+    canonical: "https://www.betprint.de/cookie-policy",
+  },
 };
 
 export default function Page() {
