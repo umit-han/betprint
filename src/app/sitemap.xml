@@ -4,84 +4,51 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
 
 <url>
   <loc>https://www.betprint.de/</loc>
-  <lastmod>2025-09-13T18:28:42+00:00</lastmod>
+  <lastmod>2024-05-24T00:00:00+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://www.betprint.de/shop</loc>
-  <lastmod>2025-09-13T18:28:42+00:00</lastmod>
+  <lastmod>2024-05-24T00:00:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.betprint.de/angebot</loc>
-  <lastmod>2025-09-13T18:28:42+00:00</lastmod>
+  <lastmod>2024-05-24T00:00:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.betprint.de/contact</loc>
-  <lastmod>2025-09-13T18:28:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.betprint.de/terms</loc>
-  <lastmod>2025-09-13T18:28:42+00:00</lastmod>
+  <lastmod>2024-05-24T00:00:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.betprint.de/impressum</loc>
-  <lastmod>2025-09-13T18:28:42+00:00</lastmod>
+  <lastmod>2024-05-24T00:00:00+00:00</lastmod>
   <priority>0.50</priority>
 </url>
 <url>
   <loc>https://www.betprint.de/agb</loc>
-  <lastmod>2025-09-13T18:28:42+00:00</lastmod>
+  <lastmod>2024-05-24T00:00:00+00:00</lastmod>
   <priority>0.50</priority>
 </url>
 <url>
   <loc>https://www.betprint.de/cancellation-policy</loc>
-  <lastmod>2025-09-13T18:28:42+00:00</lastmod>
+  <lastmod>2024-05-24T00:00:00+00:00</lastmod>
   <priority>0.50</priority>
 </url>
 <url>
   <loc>https://www.betprint.de/data-protection</loc>
-  <lastmod>2025-09-13T18:28:42+00:00</lastmod>
+  <lastmod>2024-05-24T00:00:00+00:00</lastmod>
   <priority>0.50</priority>
 </url>
 <url>
   <loc>https://www.betprint.de/cookie-policy</loc>
-  <lastmod>2025-09-13T18:28:42+00:00</lastmod>
+  <lastmod>2024-05-24T00:00:00+00:00</lastmod>
   <priority>0.50</priority>
 </url>
-<url>
-  <loc>https://www.betprint.de/products/hat</loc>
-  <lastmod>2025-09-13T18:28:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.betprint.de/products/thermal-paper-1</loc>
-  <lastmod>2025-09-13T18:28:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.betprint.de/products/thermorollen</loc>
-  <lastmod>2025-09-13T18:28:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.betprint.de/products/thermal-paper</loc>
-  <lastmod>2025-09-13T18:28:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.betprint.de/products/thermorollen-1</loc>
-  <lastmod>2025-09-13T18:28:42+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-
 
 </urlset>
