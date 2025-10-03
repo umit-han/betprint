@@ -6,7 +6,7 @@ import tRolle2 from "@/assets/t-rolle-2.jpg";
 import tRolle3 from "@/assets/t-rolle-3.jpg";
 import tRolle4 from "@/assets/t-rolle-4.png";
 import kRolle1 from "@/assets/k-rolle-1.png";
-
+import ThemeAwareLogo from "@/app/ThemeAwareLogo";
 import Product from "@/components/Product";
 import { Button } from "@/components/ui/button";
 import { Skeleton } from "@/components/ui/skeleton";
@@ -35,7 +35,8 @@ export default function Home() {
   return (
     <main className="w-full space-y-4 pb-5">
       <div className="flex items-center bg-secondary h-[65 mx-6">
-        <div className="space-y-7 p-8 text-left md:w-1/2">
+        <div className="space-y-7 p-8 pt-0 text-left md:w-1/2">
+        <ThemeAwareLogo/>
           <h1 className="text-xl font-medium lg:text-2xl text-center">
           Thermorollen für Wettbüros – zuverlässig, nachhaltig,  
           </h1>

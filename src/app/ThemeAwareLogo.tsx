@@ -21,7 +21,7 @@ export default function ThemeAwareLogo() {
 
   return (
     <Link href="/" className="flex items-center gap-8">
-      <Image src={resolvedTheme === "dark" ? logoDark : logoDark} alt="Bet Print logo" width={80} height={80} />
+      <Image src={resolvedTheme === "dark" ? logoDark : logo } alt="Bet Print logo" width={80} height={80} />
       {/* <span className="text-2xl font-bold">Bet Print</span> */}
     </Link>
   );

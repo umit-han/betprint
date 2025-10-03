@@ -1,4 +1,3 @@
-import ThemeAwareLogo from "@/app/ThemeAwareLogo";
 import { Leaf, Phone } from "lucide-react";
 
 export default function TopBanner() {
@@ -9,7 +8,6 @@ export default function TopBanner() {
           <Leaf className="h-4 w-4" />
           <span>Umweltfreundlich</span>
         </div>
-          <ThemeAwareLogo/>
         <div className="flex items-center gap-2">
           <Phone className="h-4 w-4" />
           <a href="tel:+4964415643606" className="hover:underline text-lg">
