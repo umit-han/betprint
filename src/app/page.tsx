@@ -1,11 +1,9 @@
 import type { Metadata } from "next";
 import banner from "@/assets/banner.jpeg";
 import rolleInfo from "@/assets/rolle-info.png";
-import tRolle1 from "@/assets/t-rolle-1.png";
 import tRolle2 from "@/assets/t-rolle-2.jpg";
-import tRolle3 from "@/assets/t-rolle-3.jpg";
 import tRolle4 from "@/assets/t-rolle-4.png";
-import kRolle1 from "@/assets/k-rolle-1.png";
+import tRolle6 from "@/assets/t-rolle-6.jpg";
 import ThemeAwareLogo from "@/app/ThemeAwareLogo";
 import Product from "@/components/Product";
 import { Button } from "@/components/ui/button";
@@ -105,7 +103,7 @@ async function FeaturedProducts() {
 
         <div className="relative overflow-hidden flex justify-center items-center">
           <Image
-            src={tRolle4}
+            src={tRolle6}
             alt="Thermorolle 1"
             width={300}
             height={300}
@@ -132,7 +130,7 @@ async function FeaturedProducts() {
         </div>
         <div className="relative overflow-hidden flex justify-center items-center">
           <Image
-            src={kRolle1}
+            src={tRolle4}
             alt="Thermorolle"
             width={700}
             height={700}
