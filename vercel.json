@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "src": "/verify",
+      "dest": "/verify/index.html"
+    },
+    {
+      "src": "/verify/:orderId",
+      "dest": "/verify/index.html"
+    }
+  ]
+}
