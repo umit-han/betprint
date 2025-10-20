@@ -20,7 +20,9 @@ const Navbar = () => {
   return (
     <div className='mx-auto flex max-w-screen-2xl items-center justify-between gap-5 px-5 py-3'>
       
-        <MainNavigation  className="hidden lg:flex"/>
+      <div className='hidden lg:flex'>
+        <MainNavigation/>
+      </div>
       <div className='flex items-center gap-6'>
             <img onClick={()=> { setShowSearch(true); navigate('/collection') }} src={assets.search_icon} className='w-5 cursor-pointer' alt="" />
             
@@ -40,7 +42,7 @@ const Navbar = () => {
                 <img src={assets.cart_icon} className='w-5 min-w-5' alt="" />
                 <p className='absolute right-[-5px] bottom-[-5px] w-4 text-center leading-4 bg-black text-white aspect-square rounded-full text-[8px]'>{getCartCount()}</p>
             </Link> 
-            <img onClick={()=>setVisible(true)} src={assets.menu_icon} className='w-5 cursor-pointer sm:hidden' alt="" /> 
+            <img onClick={()=>setVisible(true)} src={assets.menu_icon} className='w-5 cursor-pointer lg:hidden' alt="" /> 
       </div>
 
         {/* Sidebar menu for small screens */}
