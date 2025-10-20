@@ -1,49 +1,63 @@
-import React from 'react'
-import Title from '../components/Title'
-import { assets } from '../assets/assets'
-import NewsletterBox from '../components/NewsletterBox'
 
-const About = () => {
+export default function About() {
   return (
-    <div>
+    <main className="mx-auto max-w-4xl space-y-10 px-5 py-10 leading-7">
+      <div className="space-y-6">
+        <h1 className="text-2xl font-bold tracking-tight md:text-4xl">
+          Über uns
+        </h1>
+        <p>
+          Wir sind ein mittelständisches Unternehmen aus Hessen und haben uns
+          konsequent auf Thermorollen für Wettbüros spezialisiert. Im Gegensatz
+          zu allgemeinen Anbietern liegt unser Fokus ausschließlich auf den
+          besonderen Anforderungen von Wettshops – hohe Druckvolumen,
+          zuverlässige Funktion und gleichbleibend hohe Qualität.
+        </p>
+        <p>
+          Unsere Thermorollen werden ausschließlich in deutschen Papierfabriken
+          nach strengen Umwelt- und Qualitätsstandards hergestellt. Sie sind
+          frei von Bisphenolen (BPA, BPS, BPF) sowie phenolhaltigen
+          Farbentwicklern und bieten damit eine sichere und nachhaltige Lösung
+          für den täglichen Betrieb.
+        </p>
+        <p>
+          Ob Quittungen, Wettscheine oder Belege: Unsere Produkte sind optimal
+          auf die Bondrucker und Terminals aller in Deutschland lizenzierten
+          Wettanbieter abgestimmt. Wir verstehen die Abläufe in Wettbüros und
+          liefern praxisgerechte, langlebige und umweltbewusste Lösungen.
+        </p>
+        <p>
+          Unsere Spezialisierung ist Ihr Vorteil – Thermorollen, die exakt auf
+          die Bedürfnisse von Wettbüros zugeschnitten sind.
+        </p>
 
-      <div className='text-2xl text-center pt-8 border-t'>
-          <Title text1={'ABOUT'} text2={'US'} />
+        <h2 className="pt-8 text-xl font-bold">
+          Nachhaltigkeit &amp; Verantwortung
+        </h2>
+        <p>
+          Wir arbeiten ausschließlich mit Herstellern in Deutschland zusammen,
+          die ressourcenschonend produzieren, erneuerbare Energien einsetzen und
+          internationale Zertifizierungen wie FSC®, ISO 14001 und den BRC
+          Global Standard erfüllen.
+        </p>
+        <p>Besonders wichtig sind Innovationen wie:</p>
+        <ul className="list-disc space-y-2 pl-6">
+          <li>
+            BPA- und phenolfreies Thermopapier, eingeführt lange vor dem
+            EU-Verbot
+          </li>
+          <li>
+            Blue4est® – das erste vollständig recycelbare Thermopapier für alle
+            gängigen Thermodrucker
+          </li>
+          <li>Ökostrom und Photovoltaik in der Produktion</li>
+        </ul>
+        <p>
+          So drucken Sie in Ihrem Wettbüro mit Thermorollen, die nachhaltig
+          produziert werden, höchste Qualitätsstandards erfüllen und
+          gleichzeitig einen aktiven Beitrag zum Schutz unserer Umwelt leisten.
+        </p>
       </div>
-
-      <div className='my-10 flex flex-col md:flex-row gap-16'>
-          <img className='w-full md:max-w-[450px]' src={assets.about_img} alt="" />
-          <div className='flex flex-col justify-center gap-6 md:w-2/4 text-gray-600'>
-              <p>Forever was born out of a passion for innovation and a desire to revolutionize the way people shop online. Our journey began with a simple idea: to provide a platform where customers can easily discover, explore, and purchase a wide range of products from the comfort of their homes.</p>
-              <p>Since our inception, we've worked tirelessly to curate a diverse selection of high-quality products that cater to every taste and preference. From fashion and beauty to electronics and home essentials, we offer an extensive collection sourced from trusted brands and suppliers.</p>
-              <b className='text-gray-800'>Our Mission</b>
-              <p>Our mission at Forever is to empower customers with choice, convenience, and confidence. We're dedicated to providing a seamless shopping experience that exceeds expectations, from browsing and ordering to delivery and beyond.</p>
-          </div>
-      </div>
-
-      <div className=' text-xl py-4'>
-          <Title text1={'WHY'} text2={'CHOOSE US'} />
-      </div>
-
-      <div className='flex flex-col md:flex-row text-sm mb-20'>
-          <div className='border px-10 md:px-16 py-8 sm:py-20 flex flex-col gap-5'>
-            <b>Quality Assurance:</b>
-            <p className=' text-gray-600'>We meticulously select and vet each product to ensure it meets our stringent quality standards.</p>
-          </div>
-          <div className='border px-10 md:px-16 py-8 sm:py-20 flex flex-col gap-5'>
-            <b>Convenience:</b>
-            <p className=' text-gray-600'>With our user-friendly interface and hassle-free ordering process, shopping has never been easier.</p>
-          </div>
-          <div className='border px-10 md:px-16 py-8 sm:py-20 flex flex-col gap-5'>
-            <b>Exceptional Customer Service:</b>
-            <p className=' text-gray-600'>Our team of dedicated professionals is here to assist you the way, ensuring your satisfaction is our top priority.</p>
-          </div>
-      </div>
-
-      <NewsletterBox/>
-      
-    </div>
-  )
+    </main>
+  );
 }
-
-export default About
