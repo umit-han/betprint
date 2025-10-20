@@ -83,10 +83,10 @@ const Collection = () => {
   },[sortType])
 
   return (
-    <div className='space-y-10 container mx-auto px-5 py-10'>
+    <div className='space-y-10 container mx-auto py-10 px-4 md:px-0'>
      <h2 className="text-2xl font-bold">Products</h2>
       {/* Right Side */}
-      <div className='flex grid-cols-2 flex-col gap-5 sm:grid md:grid-cols-3 lg:grid-cols-4"lex-1'>
+      <div className='flex items-center grid-cols-2 flex-col gap-5 sm:grid md:grid-cols-3 lg:grid-cols-4"lex-1'>
         {
           filterProducts.map((item,index)=>(
             <ProductItem key={index} name={item.name} id={item._id} price={item.price} image={item.image} />
