@@ -32,9 +32,9 @@ const Hero = () => {
           nachhaltig, sicher und sofort einsatzbereit.
           </p>
           <Button asChild>
-            <Link href="/collection">
+            <a href="/collection">
               Jetzt einkaufen <ArrowRight className="ml-2 size-5" />
-            </Link>
+            </a>
           </Button>
         </div>
         <div className="relative hidden h-full w-1/2 md:block">
