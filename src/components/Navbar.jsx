@@ -23,7 +23,7 @@ const Navbar = () => {
       <div className='hidden lg:flex'>
         <MainNavigation/>
       </div>
-      <div className='flex justify-center items-center gap-6 w-full'>
+      <div className='flex justify-center lg:justify-end items-center gap-6 w-full'>
             <img onClick={()=> { setShowSearch(true); navigate('/collection') }} src={assets.search_icon} className='w-5 cursor-pointer' alt="Search Icon" />
             
             <div className='group relative'>
